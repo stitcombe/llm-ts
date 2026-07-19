@@ -43,6 +43,11 @@ commit
 - [x] src/click/ (mini-click: commands, options, CliRunner test harness)
 - [x] src/cli.ts (cli.py)
 - [x] src/index.ts (rest of __init__.py: model registry, aliases)
+- [x] src/bin.ts (NEW — `llm` executable entry point; hands `process.argv`
+  to `src/click`'s `main()` against `cli.ts`'s `cli` `Group`. Python has no
+  analog since `pip install` generates the console-script wrapper from
+  `pyproject.toml`'s `[project.scripts]`; `npm run build` chmods
+  `dist/bin.js` executable to stand in for that.)
 - [x] test/ — ALL 28 tests/test_*.py files ported; suite: 787 passing,
   0 skipped, 0 todo (conftest fixtures → test/conftest.ts)
   - test_serialization: runtime DictSpecs + validators added to
