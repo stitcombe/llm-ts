@@ -21,7 +21,7 @@
     "test": "vitest run",
     "typecheck": "tsc --noEmit"
   },
-  "license": "Apache-2.0",
+  "license": "MIT",
   "engines": {
     "node": ">=18"
   },
@@ -29,6 +29,7 @@
     "@noble/hashes": "^2.2.0",
     "better-sqlite3": "^11.10.0",
     "js-yaml": "^4.1.0",
+    "llm-ts": "link:",
     "pluggy-ts": "file:../pluggy-ts"
   },
   "devDependencies": {

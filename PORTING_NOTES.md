@@ -5,6 +5,17 @@ Port of [simonw/llm](https://github.com/simonw/llm) 0.32a3 (the fork at
 pause/resume) and its complete unit test suite to TypeScript under
 [vitest](https://vitest.dev). Uses `pluggy-ts` for the plugin system.
 
+This port was completed by Claude Fable 5, based on
+[simonw/llm](https://github.com/simonw/llm) commit
+[`0392226e6630746ef51ffd309c2bee6a5f72b58e`](https://github.com/simonw/llm/commit/0392226e6630746ef51ffd309c2bee6a5f72b58e)
+(`0.32a3`), plus its [llm-anthropic](https://github.com/simonw/llm-anthropic)
+plugin at commit
+[`3ae428f3b5143cc81da25af0271d8fa55bda3f05`](https://github.com/simonw/llm-anthropic/commit/3ae428f3b5143cc81da25af0271d8fa55bda3f05)
+and [llm-openrouter](https://github.com/simonw/llm-openrouter) plugin at
+commit
+[`bcda46afe7449df3455254f4390f8618d711aaf5`](https://github.com/simonw/llm-openrouter/commit/bcda46afe7449df3455254f4390f8618d711aaf5)
+(`0.6`).
+
 ## Status / progress log
 
 - [x] Project scaffold (package.json, tsconfig, vitest.config.ts)

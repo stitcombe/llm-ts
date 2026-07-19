@@ -1,0 +1,15 @@
+llm-ts
+Copyright 2026 Stephen Titcombe
+
+This product is a TypeScript port of software originally developed by
+Simon Willison and licensed under the Apache License, Version 2.0
+(http://www.apache.org/licenses/LICENSE-2.0):
+
+  - llm (https://github.com/simonw/llm), Copyright 2023 Simon Willison
+  - llm-anthropic (https://github.com/simonw/llm-anthropic), Copyright Simon Willison
+  - llm-openrouter (https://github.com/simonw/llm-openrouter), Copyright Simon Willison
+
+See PORTING_NOTES.md for the exact upstream commits ported and a full
+mapping of modules and deliberate deviations from the originals. See
+LICENSE for the MIT license covering this port and the reproduced text
+of the Apache License, Version 2.0 covering the original works.
